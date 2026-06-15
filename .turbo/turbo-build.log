@@ -1,16 +1,16 @@
 
-> medplum-efax-demo@5.1.17 build
+> medplum-efax-demo@5.1.18 build
 > tsc && vite build
 
 [36mvite v8.0.16 [32mbuilding client environment for production...[36m[39m
-[2Ktransforming...✓ 6949 modules transformed.
+[2Ktransforming...✓ 6948 modules transformed.
 rendering chunks...
 computing gzip size...
 dist/index.html                   0.53 kB │ gzip:   0.33 kB
 dist/assets/index-gBplSIGv.css  231.78 kB │ gzip:  34.19 kB
-dist/assets/index-CAJZMdxz.js   973.03 kB │ gzip: 291.32 kB
+dist/assets/index-CWGkUQjk.js   973.45 kB │ gzip: 291.42 kB
 
-[32m✓ built in 5.54s[39m
+[32m✓ built in 5.31s[39m
 [33m[plugin builtin:vite-reporter] 
 (!) Some chunks are larger than 500 kB after minification. Consider:
 - Using dynamic import() to code-split the application
