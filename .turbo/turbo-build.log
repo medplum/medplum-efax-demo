@@ -1,21 +1,19 @@
 
-> medplum-efax-demo@5.1.36 build
+> medplum-efax-demo@5.1.37 build
 > tsc && vite build
 
-[33m(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
-  - `__dirname` (vite.config.ts:11:27). Use `import.meta.dirname` instead
-Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.[39m
-[36mvite v8.2.1 [32mbuilding client environment for production...[36m[39m
-[2Ktransforming...✓ 7038 modules transformed.
+[36mvite v8.2.2 [32mbuilding client environment for production...[36m[39m
+transforming...
+✓ 7038 modules transformed.
 rendering chunks...
 computing gzip size...
 dist/index.html                   0.53 kB │ gzip:   0.33 kB
 dist/assets/index-BYy0vQvz.css  240.12 kB │ gzip:  35.16 kB
-dist/assets/index-DBohbNFo.js   828.07 kB │ gzip: 246.51 kB
+dist/assets/index-Bvc90Lvy.js   828.09 kB │ gzip: 246.51 kB
 
 [33m[plugin builtin:vite-reporter] 
 (!) Some chunks are larger than 500 kB after minification. Consider:
 - Using dynamic import() to code-split the application
 - Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
-[32m✓ built in 4.56s[39m
+[32m✓ built in 3.11s[39m
