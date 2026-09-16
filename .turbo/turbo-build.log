@@ -1,5 +1,5 @@
 
-> medplum-efax-demo@5.1.38 build
+> medplum-efax-demo@5.1.39 build
 > tsc && vite build
 
 [36mvite v8.3.0 [32mbuilding client environment for production...[36m[39m
@@ -9,11 +9,11 @@ rendering chunks...
 computing gzip size...
 dist/index.html                   0.53 kB │ gzip:   0.33 kB
 dist/assets/index-BYy0vQvz.css  240.12 kB │ gzip:  35.16 kB
-dist/assets/index-CpyVy-0Z.js   857.25 kB │ gzip: 255.27 kB
+dist/assets/index-Bu0EUNce.js   857.30 kB │ gzip: 255.25 kB
 
 [33m[plugin builtin:vite-reporter] 
-[32m✓ built in 4.92s[39m
 (!) Some chunks are larger than 500 kB after minification. Consider:
 - Using dynamic import() to code-split the application
 - Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+[32m✓ built in 4.24s[39m
